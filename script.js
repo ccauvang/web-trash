@@ -27,7 +27,7 @@ function thumbnai() {
                      "https://images.alphacoders.com/261/261263.jpg"]
     	 var rdthumb = thumb[Math.floor(Math.random() * thumb.length)];
     var element = document.getElementById('bgwelcum');
-  console.log(element);
+  //console.log(element);
    element.style.backgroundImage = "url("+ rdthumb + ")";
     }
 document.addEventListener("DOMContentLoaded", thumbnai);
