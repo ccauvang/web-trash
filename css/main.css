@@ -8,15 +8,16 @@
  
 .iconinfo {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   left:0px;
   right:0px;
   margin:0 auto;
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #0B1600, #0E1F0E); 
+  background-color: #131B10;
+  /*background-image: linear-gradient(to bottom right, #0B1600, #0E1F0E);*/
 }
    
 #divtall {
@@ -27,13 +28,13 @@ body {
   margin:40 auto;
   border-radius:55%; 
   filter: blur(7em);
-  animation: divtalll 3s infinite;	
+  animation: divtalll 4s infinite;	
 }
 
 @keyframes divtalll {
   0% {width: 30%;}
   50% {width: 50%;}
-  50% {min-width: 30%;}
+  0% {min-width: 30%;}
 }
 
 #bgwelcum {
