@@ -17,7 +17,7 @@
 
 body {
   background-color: #131B10;
-  /*background-image: linear-gradient(to bottom right, #0B1600, #0E1F0E);*/
+  /*background-image: linear-gradient(to bottom, #131B10, #112011);*/
 }
    
 #divtall {
@@ -26,15 +26,15 @@ body {
   height:700px;
   /*margin-left:60px;*/ 
   margin:40 auto;
-  border-radius:55%; 
-  filter: blur(7em);
-  animation: divtalll 4s infinite;	
+  border-radius:55px; 
+  filter: blur(8em);
+  animation: divtalll 3s infinite;	
 }
 
 @keyframes divtalll {
   0% {width: 30%;}
   50% {width: 50%;}
-  0% {min-width: 30%;}
+  0% {width: 30%;}
 }
 
 #bgwelcum {
@@ -162,7 +162,7 @@ body {
   cursor: pointer;
   display: inline-block;
   font-family: Roboto,sans-serif;
-  padding: 20px 20px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   transition: all 850ms;
