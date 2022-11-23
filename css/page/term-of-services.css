@@ -1,0 +1,46 @@
+body {
+  background-color: #131B10;
+  /*background-image: linear-gradient(to bottom, #131B10, #112011);*/
+}
+
+#headbar {
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #1F3D00, #132600, #091D08);
+  width:98%;
+  height:60px;
+  border-bottom-left-radius:55px;
+  border-top-left-radius:55px;
+  z-index: 2;
+} 
+#picturetop {
+  filter: drop-shadow(0.4rem 0.1rem 1rem #2E5A00);
+  border-radius: 50px;
+} 
+#teofces {
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  right: 0px;
+  margin:0 auto;
+  z-index: 3;
+}
+#teopces {
+  color: #ff0000;
+  text-align: left;
+  /*font-size: 22px;*/
+  font-family: roboto, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.teogces {
+  color: #ff0000;
+  text-align: left;
+  font-size: 20px;
+  font-family: roboto, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#ollist {
+  
+}
