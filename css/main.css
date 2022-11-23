@@ -99,7 +99,7 @@ body {
 #headbar {
   position: absolute;
   background-image: linear-gradient(to bottom right, #1F3D00, #132600, #091D08);
-  width:99%;
+  width:98%;
   height:60px;
   border-bottom-left-radius:55px;
   border-top-left-radius:55px;
