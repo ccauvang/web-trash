@@ -64,12 +64,13 @@ body {
   position: absolute; 
   top: 164px;
   left:3%;
-  color: #94BFFF; 
+  color: #498F00; 
   font-size:20px; 
   font-family: Verdana, roboto, Tahoma, sans-serif; 
   font-weight: 700;
   /*transform: translate(-50%, -50%);*/
   z-index: 2;
+  text-shadow: 1px -1px 4px #2B5600;
 }
    
 #taginfo {
@@ -200,12 +201,14 @@ body {
   filter: drop-shadow(0.1rem 0.3rem 1rem #2E5A00);
   border-radius: 50px;
   z-index: 2;
+  display: inline;
 }
 .moreinfo {
   color:#FF7800; 
   font-family: roboto, verdana; 
   font-weight: 600; 
-  font-size: 15px; 
+  font-size: 15px;
+  display: inline;
 }
 #madebi {
   text-align: center;
