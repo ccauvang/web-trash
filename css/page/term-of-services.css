@@ -16,29 +16,48 @@ body {
   filter: drop-shadow(0.4rem 0.1rem 1rem #2E5A00);
   border-radius: 50px;
 } 
-#teofces {
+
+#headtext {
   position: absolute;
-  top: 20%;
+  left:80px;
+  color:#82E47A;
+  font-size:20px;
+  font-family:roboto;
+  font-weight:600;
+  z-index: 3;
+  animation: headtext 5s infinite;
+}
+
+@keyframes headtext {
+  30% {text-shadow: 1px -1px 1rem #81FF00;}
+} 
+
+#teodiv {
+  position: absolute;
+  top: 10em;
   left: 0px;
   right: 0px;
+  width: 100%;
   margin:0 auto;
   z-index: 3;
 }
 #teopces {
-  color: #ff0000;
+  color: #1CAF00;
   text-align: left;
   /*font-size: 22px;*/
   font-family: roboto, Verdana, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  text-shadow: 1px -1px 3rem #81FF00;
 }
 
 .teogces {
-  color: #ff0000;
+  color: #E6FFC9;
   text-align: left;
-  font-size: 20px;
+  font-size: 130%;
   font-family: roboto, Verdana, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 25px;
+  width: 100%;
 }
 
 #ollist {

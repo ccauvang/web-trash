@@ -1,7 +1,7 @@
 .info {
   font-size:250%;
   font-weight: 600;
-  color:#DBFFB4;
+  color: #C4FF85;
   font-family:roboto;
   text-align:center;
 }
@@ -24,9 +24,9 @@ body {
   background-color:#2A5300; 
   width:30%;
   height:700px;
-  /*margin-left:60px;*/ 
-  margin:40 auto;
-  border-radius:55px; 
+  /*margin-left:60px;*/
+  margin: 50% auto;
+  border-radius:55px;
   filter: blur(8em);
   animation: divtalll 3s infinite;	
 }
@@ -61,9 +61,10 @@ body {
 }
 
 #loinoidau {
-  position: absolute; 
+  /*position: absolute;
   top: 164px;
-  left:3%;
+  left:3%;*/
+  text-align: center;
   color: #498F00; 
   font-size:20px; 
   font-family: Verdana, roboto, Tahoma, sans-serif; 
@@ -79,7 +80,8 @@ body {
   left: 0px;
   right:0px;
   margin:0 auto;
-  /*transform: translate(-50%, 50%);*/
+  /*z-index: 5;
+  transform: translate(-50%, 50%);*/
 }
 
 #headtext {
