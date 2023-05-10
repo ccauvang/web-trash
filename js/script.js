@@ -51,5 +51,4 @@ sr2.reveal(".head_info",{delay: 300, origin: 'top'});
 sr2.reveal("#head_button",{delay: 200, origin: 'top'});
 sr.reveal(".text_info",{delay: 300, origin: 'left'});
 sr.reveal(".icon_info",{delay: 300, origin: 'right'});
-sr2.reveal(".more_info",{delay: 300, origin: 'left'}); 
 sr.reveal("#image_bottom",{delay: 300, origin: 'rigin'}); 

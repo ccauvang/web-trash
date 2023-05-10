@@ -1,0 +1,12 @@
+body {
+  background-color: #131B10;
+}
+
+#error {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: roboto;
+  color: green;
+  text-shadow: 1px -1px 1em lawngreen;
+  text-align: center;
+}
