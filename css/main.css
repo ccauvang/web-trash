@@ -1,4 +1,4 @@
-.info {
+.text_info {
   font-size:250%;
   font-weight: 600;
   color: #C4FF85;
@@ -6,7 +6,7 @@
   text-align:center;
 }
  
-.iconinfo {
+.icon_info {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -17,12 +17,18 @@
 
 body {
   padding: 0;
-  margin: 0;
-  background-color: #131B10;
+  margin: 0 auto;
   /*background-image: linear-gradient(to bottom, #131B10, #112011);*/
 }
-   
-#bgwelcum {
+
+#div_body {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #131B10;
+}
+
+#image_wellcome {
   background-image: url(" ");
   background-position: center;
   background-repeat: no-repeat;
@@ -79,10 +85,11 @@ body {
    
 #taginfo {
   position: absolute; 
-  top: 500px;
+  top: 0px;
   left: 0px;
   right:0px;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-top: 700px;
   z-index: 5;
   /*transform: translate(-50%, 50%);*/
 }
@@ -97,11 +104,13 @@ body {
 #headtext {
   position: absolute;
   top: 0px;
+  bottom: 0px;
   left: 80px;
+  margin-top: 11px;
   color: #82E47A;
-  font-size: 20px;
-  font-family: roboto;
-  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Permanent Marker', cursive, roboto;
+  font-weight: 400;
   z-index: 3;
   animation: headtext 5s infinite;
 }
@@ -203,7 +212,7 @@ body {
   transform: scale(1.05);
 }
 
-#picbottom {
+#image_bottom {
   position: relative;
   top:2.8%;
   filter: drop-shadow(0.1rem 0.3rem 1rem #2E5A00);
@@ -211,12 +220,20 @@ body {
   z-index: 2;
   display: inline;
 }
-.moreinfo {
-  color:#FF7800; 
+.more_info {
+  color: #FF7800; 
   font-family: roboto, verdana; 
   font-weight: 600; 
   font-size: 15px;
-  display: inline;
+  transition: all 500ms;
+  display: flexbox;
+  touch-action: manipulation;
+}
+
+.more_info:active {
+  color: red;
+  font-size: 14px;
+  text-transform: scale(1.06);
 }
 
 #madebi {

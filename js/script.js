@@ -26,8 +26,30 @@ function thumbnai() {
                      "https://images.alphacoders.com/493/493237.jpg",
                      "https://images.alphacoders.com/261/261263.jpg"]
     	 var rdthumb = thumb[Math.floor(Math.random() * thumb.length)];
-    var element = document.getElementById('bgwelcum');
+    var element = document.getElementById('image_wellcome');
   //console.log(element);
    element.style.backgroundImage = "url("+ rdthumb + ")";
     }
 document.addEventListener("DOMContentLoaded", thumbnai);
+
+
+const sr = ScrollReveal({
+  distance: '20px',
+  duration: 2000,
+  delay: 200,
+  reset: false
+});
+
+const sr2 = ScrollReveal({
+  distance: '1px',
+  duration: 1000,
+  delay: 200,
+  reset: false
+}); 
+
+sr2.reveal(".head_info",{delay: 300, origin: 'top'});
+sr2.reveal("#head_button",{delay: 200, origin: 'top'});
+sr.reveal(".text_info",{delay: 300, origin: 'left'});
+sr.reveal(".icon_info",{delay: 300, origin: 'right'});
+sr2.reveal(".more_info",{delay: 300, origin: 'left'}); 
+sr.reveal("#image_bottom",{delay: 300, origin: 'rigin'}); 
