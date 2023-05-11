@@ -20,6 +20,9 @@ body {
   margin: 0 auto;
   /*background-image: linear-gradient(to bottom, #131B10, #112011);*/
 }
+img {
+  pointer-events: none;
+}
 
 #div_body {
   display: inline-block;
@@ -55,7 +58,7 @@ body {
   /*position: absolute;
   top: 164px;
   left:3%;*/
-  text-align: center;
+  text-align: left;
   color: #498F00; 
   font-size:20px; 
   font-family: Verdana, roboto, Tahoma, sans-serif; 
@@ -221,19 +224,21 @@ body {
   display: inline;
 }
 .more_info {
-  color: #FF7800; 
-  font-family: roboto, verdana; 
+  color: #357D18; 
+  font-family: roboto, Verdana; 
   font-weight: 600; 
   font-size: 15px;
   transition: all 500ms;
   display: flexbox;
+  text-decoration: none;
   touch-action: manipulation;
 }
 
 .more_info:active {
-  color: red;
+  color: #43AE1C;
   font-size: 14px;
-  text-transform: scale(1.06);
+  text-decoration: underline #43AE1C;
+  transform: scale(1.06);
 }
 
 #madebi {
