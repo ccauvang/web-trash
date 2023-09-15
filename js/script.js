@@ -40,7 +40,7 @@ const sr = ScrollReveal({
   reset: false
 });
 
-sr.reveal(".head_info",{delay: 300, origin: 'top'});
-sr.reveal("#head_button",{delay: 200, origin: 'top'});
+//sr.reveal(".head_info",{delay: 300, origin: 'top'});
+//sr.reveal("#head_button",{delay: 200, origin: 'top'});
 sr.reveal(".text_info",{delay: 300, origin: 'left'});
 sr.reveal(".icon_info",{delay: 300, origin: 'right'});
