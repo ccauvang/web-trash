@@ -32,7 +32,6 @@ function thumbnai() {
     }
 document.addEventListener("DOMContentLoaded", thumbnai);
 
-
 const sr = ScrollReveal({
   distance: '20px',
   duration: 1000,
