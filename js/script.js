@@ -25,10 +25,10 @@ function thumbnai() {
                      "https://images2.alphacoders.com/533/533940.jpg",
                      "https://images.alphacoders.com/493/493237.jpg",
                      "https://images.alphacoders.com/261/261263.jpg"]
-    	 var rdthumb = thumb[Math.floor(Math.random() * thumb.length)];
-    var element = document.getElementById('image_wellcome');
+    	 const rdthumb = thumb[Math.floor(Math.random() * thumb.length)];
+    const element = document.getElementById('image_wellcome');
   //console.log(element);
-   element.style.backgroundImage = "url("+ rdthumb + ")";
+   //element.style.backgroundImage = "url("+ rdthumb + ")";
     }
 document.addEventListener("DOMContentLoaded", thumbnai);
 
