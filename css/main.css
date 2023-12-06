@@ -35,7 +35,7 @@ img {
 }
 
 #image_wellcome {
-  background-color: #304917;
+  background: Url();
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,7 +143,6 @@ button {
   cursor: pointer;
   border-radius: 50px;
   filter: drop-shadow(0 0 0.5em rgba(44, 187, 99, 0.6));
-  
 }
 
 #button-top {

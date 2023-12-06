@@ -28,7 +28,7 @@ function thumbnai() {
     	 const rdthumb = thumb[Math.floor(Math.random() * thumb.length)];
     const element = document.getElementById('image_wellcome');
   //console.log(element);
-   //element.style.backgroundImage = "url("+ rdthumb + ")";
+   element.style.backgroundImage = "url("+ rdthumb + ")";
     }
 document.addEventListener("DOMContentLoaded", thumbnai);
 
